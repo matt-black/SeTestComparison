@@ -1,0 +1,16 @@
+{
+  "name": "spoonium-video-tests",
+  "description": "sample code for the sauce/bs comparison",
+  "version": "0.1.0",
+  "engines": 
+  {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nightwatch": "*"
+  },
+  "scripts": {
+    "test": "nightwatch -e spoonium,browserstack,saucelabs"
+  }
+}
