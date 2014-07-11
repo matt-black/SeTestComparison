@@ -11,6 +11,6 @@
     "nightwatch": "*"
   },
   "scripts": {
-    "test": "nightwatch -e spoonium,browserstack,saucelabs"
+    "test": "nightwatch -e spoonium"
   }
 }
